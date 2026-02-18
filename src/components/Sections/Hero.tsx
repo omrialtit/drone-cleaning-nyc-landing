@@ -24,7 +24,6 @@ export const Hero: React.FC = () => {
         </div>
         
         {/* Dark Gradient Overlay (Left to Right) */}
-        {/* Starts darker on the far left for text readability, transitions to the requested 0.65, then transparent */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a142d]/95 via-[rgba(10,20,45,0.65)] to-transparent z-10"></div>
         
         {/* Soft Blur Behind Text (Left Side Only) - Limited Width */}
